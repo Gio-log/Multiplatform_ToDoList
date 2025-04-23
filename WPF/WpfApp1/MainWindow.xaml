@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+            <TextBox FontSize="32" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold">To-Do List</TextBox>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button FontSize="20" Content="Refresh"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5 5 5 5" Foreground="#FF126F29" BorderBrush="#FF3C3C3C" Background="White" Click="Button_Click"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox  Name="Task_add"  FontSize="20" TextWrapping="Wrap" Text="Add a new task" Width="368" Margin="5 5 5 5" RenderTransformOrigin="0.203,0.391"/>
+                <Button FontSize="20" Content="Add Task"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5 5 5 5" Foreground="#FF126F29" BorderBrush="#FF3C3C3C" Background="White" Click="Button_Click_1"></Button>
+            </StackPanel>
+            <DataGrid Name="TasksList" CanUserDeleteRows="False" CanUserAddRows="False" AutoGenerateColumns="False" MouseDoubleClick="TasksList_MouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Task Name" Binding="{Binding Name}" Width="*" IsReadOnly="True"/>
+                    <DataGridCheckBoxColumn Header="Completed" Binding="{Binding Completed}" Width="120" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="10" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        
+    </Grid>
+</Window>

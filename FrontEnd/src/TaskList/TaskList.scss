@@ -1,0 +1,81 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    animation: defaultColorAnimation 1s forwards;
+    cursor: pointer;
+
+    button{
+        animation: greenColorAnimation 1s forwards;
+        width: 100px;
+        text-align: center;
+        &.completion-button {
+            margin-right: 8px;
+        }
+    }
+    }
+.completed-task {
+    animation: greenColorAnimation 1s forwards;
+    button{
+        animation: defaultColorAnimation 1s forwards;
+        &:hover{
+            background-color: #ddd;
+        }
+    }
+}
+
+@keyframes greenColorAnimation {
+    from {
+        background-color: #f9f9f9;
+        color: #28a745;
+    }
+    to {
+        background-color: #28a745;
+        color: #fff;
+    }
+}
+
+@keyframes defaultColorAnimation {
+    from {
+        background-color: #28a745;
+        color: #fff;
+    }
+    to {
+        background-color: #f9f9f9;
+        color: #28a745;
+    }
+}
+.scroll-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #f0f0f0;
+    z-index: 9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    .scroll-progress{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color: #28a745;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: transform 0.25s ease-out;
+        &.sccroll-progress-active::before {
+            transform: scaleX(1);
+        }
+    }
+}

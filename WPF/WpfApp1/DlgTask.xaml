@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.DlgTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Edit Task" Height="200" Width="275" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Label FontWeight="Bold" Content="Update Task" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <StackPanel Orientation="Horizontal" Width="312">
+                <Label FontWeight="Bold" Content="Task Id" Margin="20 0 20 0"></Label>
+                <Label FontWeight="Bold" Content="Task Name" Width="165" Margin="25 0 20 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Width="312">
+                <TextBox x:Name="Task_Id"  TextWrapping="WrapWithOverflow"  Text="TextBox" Width="50" Margin="20 2 10 2" IsReadOnly="True"/>
+                <TextBox Name="Task_name"  TextWrapping="NoWrap" Text="TextBox" Width="165" />
+            </StackPanel>
+            <CheckBox Name="Task_completion" IsChecked="{Binding IsCompleted}"  Content="Completed" Width="77" Margin="10 10 10 10" />
+            <StackPanel Orientation="Horizontal" Width="312">
+                <Button Content="Update" Click="btnUpdateTask_Click" Height="38" Width="97" Margin="20 10 20 10"/>
+                <Button Content="Delete" Click="btnDeletaTask_Click" Height="38" Width="97" Margin="20 10 20 10"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

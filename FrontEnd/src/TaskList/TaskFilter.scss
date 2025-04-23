@@ -1,0 +1,25 @@
+.task-filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    }
+    .task-filter button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #28a745;
+    transition: background-color 0.3s
+    ease;
+    }
+    .task-filter button.active {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+    }
+    .task-filter button:hover {
+    background-color: #28a745;
+    color: #fff;
+    }

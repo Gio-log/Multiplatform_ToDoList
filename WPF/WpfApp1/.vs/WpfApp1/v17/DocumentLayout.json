@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\project\\WPF\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\dlgtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:dlgtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\dlgtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:dlgtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\models\\taskcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:models\\taskcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|g:\\project\\wpf\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41D03B5C-6FD1-4705-A0C4-61BD2F9509BC}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\Models\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "Models\\TaskDTO.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\Models\\TaskDTO.cs",
+              "RelativeToolTip": "Models\\TaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:08:54.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T01:01:59.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T01:31:59.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T00:46:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T00:45:59.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DlgTask.xaml.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\DlgTask.xaml.cs",
+              "RelativeDocumentMoniker": "DlgTask.xaml.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\DlgTask.xaml.cs",
+              "RelativeToolTip": "DlgTask.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:33:04.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DlgTask.xaml",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\DlgTask.xaml",
+              "RelativeDocumentMoniker": "DlgTask.xaml",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\DlgTask.xaml",
+              "RelativeToolTip": "DlgTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T12:33:02.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:35:47.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskCreateDTO.cs",
+              "DocumentMoniker": "G:\\project\\WPF\\WpfApp1\\Models\\TaskCreateDTO.cs",
+              "RelativeDocumentMoniker": "Models\\TaskCreateDTO.cs",
+              "ToolTip": "G:\\project\\WPF\\WpfApp1\\Models\\TaskCreateDTO.cs",
+              "RelativeToolTip": "Models\\TaskCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:35:03.33Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
